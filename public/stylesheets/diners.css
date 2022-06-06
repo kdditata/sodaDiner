@@ -1,0 +1,133 @@
+body {
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:white;
+}
+#navBar {
+background-color: black;
+   list-style: none;
+   font-size: 1.2rem;
+   -webkit-text-stroke-color: rgb(116, 1, 1);
+   -webkit-text-stroke-width: 0.0755rem;  -webkit-text-fill-color: whitesmoke;
+   margin: 20px;
+}
+#navBar a {
+   text-decoration: none;
+   font-size: 1.2rem;
+   -webkit-text-stroke-color: rgb(116, 1, 1);
+   -webkit-text-stroke-width: 0.0755rem;  -webkit-text-fill-color: whitesmoke;
+}
+#navBar a:hover {
+   border-bottom: 2px solid rgb(175, 168, 168);
+   font-size: 1rem;
+}
+ul {
+   margin-top: -1px;
+   float: right;
+}
+li {
+   display: inline; 
+   margin-right: 10px;
+}
+#content{
+   justify-content: center;
+   text-align: center;
+}
+#greeting {
+   font-family: signpainter;
+   color: white;
+   text-align: center;
+   font-size: 25px;
+   margin: 100px;
+}
+button {
+   font-family: optima;
+   background-color: rgb(73, 71, 71);
+   border: 1px dashed rgb(175, 8, 8);
+   border-radius: 8px;
+   color: whitesmoke;
+   padding: 6px;
+}
+button:hover {
+   background-color: rgb(161, 151, 151);
+   color: rgb(9, 106, 233);
+   border: 2px solid whitesmoke;
+}
+#dinerInfo {
+   font-family: optima;
+}
+.dinerNameLink {
+   color: rgb(175, 8, 8);
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  text-align: center;
+}
+.dinerNameLink:hover {
+   color: silver;
+   font-size: 1.3rem;
+}
+#listOfDiners {
+   margin-top: 24px;
+   text-align: left;
+}
+#selectAddDiner {
+   margin-top: 14px;
+}
+.deleteDiner {
+   margin: 35px;
+}
+#sodaList {
+   font-family: optima;
+}
+#dinerHeading{
+   text-align: center;
+   font-size: 1.15rem;
+   -webkit-text-stroke-color: rgb(38, 105, 192);
+   -webkit-text-stroke-width: 0.0755rem;  -webkit-text-fill-color: whitesmoke;
+   margin-bottom: 40px;
+}
+#addSodaToDiner {
+   margin: 30px;
+}
+#goBack {
+   margin: 30px;
+}
+#sodaNamesList{
+   margin-bottom: 20px;
+   text-align: center;
+}
+#dinerSodas {
+   font-size: 1.15rem;
+   -webkit-text-stroke-color: rgb(38, 105, 192);
+   -webkit-text-stroke-width: 0.0755rem;  
+   -webkit-text-fill-color: whitesmoke;
+   text-decoration: none;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#dinerSodas:hover {
+   font-variant: small-caps;
+   border-bottom: 2px solid rgb(175, 168, 168);
+   font-size: 1.65rem;
+}
+#stopServing {
+   font-family: optima;
+   color: white;
+   font-size: .75rem;
+   margin-top: 15px;
+}
+.formAlert {
+   margin-top: 70px;
+   font-size: 1.15rem;
+   -webkit-text-stroke-color: rgb(38, 105, 192);
+   -webkit-text-stroke-width: 0.0755rem;  
+   -webkit-text-fill-color: whitesmoke;
+   text-decoration: none;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#thankYouMessage {
+   margin: 20px;
+}
+.sodaNames {
+   margin: 10px;
+}

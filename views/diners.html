@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soda Diner</title>
+    <link rel="stylesheet" href="stylesheets/diners.css">
+</head>
+
+<body>
+    <div>
+        <nav id='navBar'>
+            <span id='title'>Thirsty Mongoose</span>
+            <ul>
+                <li><a href='/allSodas'>All Sodas</a></li>
+                <li><a href='/allDiners'>All Diners</a></li>
+                <li><a href='/'>Home</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id='greeting'>
+        <p>Welcome to the diner page!</p>
+        <img src='../images/foodLogo.png'>
+    </div>
+    <div id='dinerHeading'>
+        <p>Diner List</p>
+    </div>
+    <div id='content'>
+        <div id="listOfDiners">
+            <!-- This is where diners will be rendered -->
+        </div>
+        <div id='dinerInfo'></div>
+        <button type="button" id="selectAddDiner">Click to Add a Diner now!</button>
+        <form id="dinerForm">
+            <input type="text" name="name" id="name" placeholder="Name" required>
+            <input type="text" name="location" id="location" placeholder="Location" required>
+            <button type="submit" id='addDinerButton'>Add Diner</button>
+        </form>
+        <div id='sodaList'></div>
+        <div id='back'>
+        <button id='goBack'>GO BACK</button></div>
+    </div>
+    <!-- JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- JAVASCRIPT -->
+    <script src='./js/diners.js'></script>
+    <script src='./js/index.js'></script>
+</body>
+
+</html>
